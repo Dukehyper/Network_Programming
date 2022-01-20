@@ -1,17 +1,13 @@
 import java.net.*;
 
-/**
- * Day1
- */
-public class Day1 {
-
+public class JavaInternetAddressByName {
     public static void main(String[] args) {
-        try{
+        try {
             InetAddress address = InetAddress.getByName("www.facebook.com");
             System.out.println(address);
         }
-        catch(UnknownHostException ex){
-            System.out.println("cound not find ip");
+        catch(UnknownHostException ex) {
+            System.out.println("Could not find");
         }
     }
 }
