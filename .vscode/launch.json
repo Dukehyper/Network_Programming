@@ -1,0 +1,161 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch client",
+            "request": "launch",
+            "mainClass": "project.client",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
+            "name": "Launch server",
+            "request": "launch",
+            "mainClass": "project.server",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
+            "name": "Launch client",
+            "request": "launch",
+            "mainClass": "client",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch DataStreamExample",
+            "request": "launch",
+            "mainClass": "DataStreamExample",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Equals",
+            "request": "launch",
+            "mainClass": "Equals",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factory1",
+            "request": "launch",
+            "mainClass": "Factory1",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factory2",
+            "request": "launch",
+            "mainClass": "Factory2",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factory3",
+            "request": "launch",
+            "mainClass": "Factory3",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
+            "name": "Launch IPCharacteristics",
+            "request": "launch",
+            "mainClass": "IPCharacteristics",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Interfacegetter",
+            "request": "launch",
+            "mainClass": "Interfacegetter",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
+            "name": "Launch IpChecker",
+            "request": "launch",
+            "mainClass": "IpChecker",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
+            "name": "Launch IsReachable",
+            "request": "launch",
+            "mainClass": "IsReachable",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaInternetAddressByIp",
+            "request": "launch",
+            "mainClass": "JavaInternetAddressByIp",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaInternetAddressByName",
+            "request": "launch",
+            "mainClass": "JavaInternetAddressByName",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Loger",
+            "request": "launch",
+            "mainClass": "Loger",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
+            "name": "Launch LookIp",
+            "request": "launch",
+            "mainClass": "LookIp",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
+            "name": "Launch PooledWeblog",
+            "request": "launch",
+            "mainClass": "PooledWeblog",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Router",
+            "request": "launch",
+            "mainClass": "Router",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleEcoServer",
+            "request": "launch",
+            "mainClass": "SimpleEcoServer",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpamChecker",
+            "request": "launch",
+            "mainClass": "SpamChecker",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
+            "name": "Launch webServerLog",
+            "request": "launch",
+            "mainClass": "webServerLog",
+            "projectName": "Network_Programming_7ea5949a"
+        }
+    ]
+}

@@ -14,7 +14,8 @@ public class PooledWeblog {
 
         try (BufferedReader in = new BufferedReader(
                 new InputStreamReader(new FileInputStream("weblogger.txt"), "UTF-8"));) {
-            for (String entry = in.readLine(); entry != null; entry = in.readLine()) {
+            for (String entry = in.readLine(); entry != null; entry = in.readLine())
+            {
                 LookupTask task = new LookupTask(entry);
                 Future<String> future = executor.submit(task);
                 LogEntry result = new LogEntry(entry, future);
