@@ -1,5 +1,7 @@
-https://www.kalovatvatey.com/index.html
+https://www.kalovatvatey.com:80/index.html
 
+protocol = http, ftp, https, mailto, smtp
+machine name = www.kalovatvatey.com   Doamin == DNS == IP(124.24.245.2)
 
 A URL contains many information:
 
@@ -9,12 +11,19 @@ Port Number: It is an optional attribute. If we write http//ww.kalovatvatey.com:
 File Name or directory name: In this case, index.html is the file name.
 
 
-Constructors of Java URL class
+Constructors of Java URL class 
+
 URL(String spec)
+
+eg URL("https://www.facebook.com/index")
 
 Creates an instance of a URL from the String representation.
 
 URL(String protocol, String host, int port, String file)
+
+
+eg: URL("https", "www.facebook.com", 80, "index.html")
+
 
 Creates an instance of a URL from the given protocol, host, port number, and file.
 
@@ -22,7 +31,7 @@ URL(String protocol, String host, int port, String file, URLStreamHandler handle
 
 Creates an instance of a URL from the given protocol, host, port number, file, and handler.
 
-URL(String protocol, String host, String file)
+URL(String protocol, String host, String file)  //port number   (default)
 
 Creates an instance of a URL from the given protocol name, host name, and file name.
 
@@ -35,6 +44,13 @@ URL(URL context, String spec, URLStreamHandler handler)
 Creates an instance of a URL by parsing the given spec with the specified handler within a given context.
 
 Methods
+
+public URL(String url2) {
+}
+
+
+Parsing a URL
+
 
 public String getProtocol()	it returns the protocol of the URL.
 public String getHost()	it returns the host name of the URL.
@@ -49,3 +65,12 @@ public boolean equals(Object obj)	it compares the URL with the given object.
 public Object getContent()	it returns the content of the URL.
 public String getRef()	it returns the anchor or reference of the URL.
 public URI toURI()	it returns a URI of the URL.
+
+
+Relative Base
+URL myURL = new URL("http://example.com/pages/");
+URL page1URL = new URL(myURL, "page1.html");
+URL page2URL = new URL(myURL, "page2.html");
+This code snippet uses the URL constructor that lets you create a URL object from another URL object (the base) and a relative URL specification. The general form of this constructor is:
+
+URL(URL baseURL, String relativeURL)
