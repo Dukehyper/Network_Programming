@@ -74,3 +74,9 @@ URL page2URL = new URL(myURL, "page2.html");
 This code snippet uses the URL constructor that lets you create a URL object from another URL object (the base) and a relative URL specification. The general form of this constructor is:
 
 URL(URL baseURL, String relativeURL)
+
+
+//retriving data from URL
+openStream()
+openConnection()
+getContent()

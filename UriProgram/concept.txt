@@ -1,0 +1,4 @@
+URI Syntax :
+
+scheme:[//[user:password@]host[:port]][/]path[?query][#fragment]
+scheme : The scheme component lays out the protocols to be associated with the URI. In some schemes the “//” are required while others dont need them.

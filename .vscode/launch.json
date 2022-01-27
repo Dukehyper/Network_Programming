@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Sample",
+            "request": "launch",
+            "mainClass": "UriProgram.Sample",
+            "projectName": "Network_Programming_7ea5949a"
+        },
+        {
+            "type": "java",
             "name": "Launch client",
             "request": "launch",
             "mainClass": "project.client",

@@ -1,3 +1,4 @@
+package UrlProgram;
 import java.net.URL;  
 import java.util.Scanner;  
   
