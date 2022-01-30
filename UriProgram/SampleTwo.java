@@ -13,11 +13,12 @@ class SampleTwo
 		// by parsing the given string.
 		URI uri = new URI(str);
 
+
 		// getHost() method
 		System.out.println("Host = " + uri.getHost());
 
 		// getPort() method
-		System.out.println("Port = " + uri.getPath());
+		System.out.println("Port = " + uri.getPort());
 
 		// getRawPath() method
 		System.out.println("Raw Path = " + uri.getRawPath());
@@ -37,6 +38,8 @@ class SampleTwo
 		// getRawFragment() method
 		System.out.println("Raw Fragment = " + uri.getRawFragment());
 
+
+	/* 	UTility */
 		URI uri2 = new URI(str + "fr");
 
 		// compareTo() mrthod
