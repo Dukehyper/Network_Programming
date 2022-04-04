@@ -1,10 +1,13 @@
+package clientSocket;
+
 import java.net.*;
 import java.io.*;
 public class WhoisClient {
- public final static int DEFAULT_PORT = 43;
- public final static String DEFAULT_HOST = "whois.internic.net";
+ public final static int DEFAULT_PORT = 433;
+ public final static String DEFAULT_HOST = "lookup.ican.org";
  public static void main(String[] args) {
- String serverName = System.getProperty("WHOIS_SERVER", DEFAULT_HOST); InetAddress server = null;
+ String serverName = System.getProperty(DEFAULT_HOST);
+ InetAddress server = null;
  try {
  server = InetAddress.getByName(serverName);
  }
@@ -15,7 +18,8 @@ public class WhoisClient {
  } try {
  Socket theSocket = new Socket(server, DEFAULT_PORT);
  Writer out = new OutputStreamWriter(theSocket.getOutputStream( ), "8859_1");
- for (int i = 0; i < args.length; i++) out.write(args[i] + " ");
+ for (int i = 0; i < args.length; i++) 
+ out.write(args[i] + " ");
  out.write("\r\n");
  out.flush( );
  InputStream raw = theSocket.getInputStream( );
