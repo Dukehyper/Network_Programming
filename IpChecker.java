@@ -17,7 +17,7 @@ public class IpChecker
         String systemipaddress = "";
         try
         {
-            URL url_name = new URL("https://www.tiktok.com/");
+            URL url_name = new URL("https://awebly.com/");
  
             BufferedReader sc =
             new BufferedReader(new InputStreamReader(url_name.openStream()));
